@@ -68,7 +68,7 @@ a {
     height: 100vh;
 }
 
-.public-irmandade{
+.public-irmandade {
     background: center / cover no-repeat url('/images/publico-irmandade.png');
     min-height: 400px;
 }
@@ -86,7 +86,7 @@ a {
     bottom: -140px !important;
 }
 
-.button-public{
+.button-public {
     bottom: -20px;
 }
 
@@ -101,6 +101,31 @@ a {
 .navbar-collapse {
     flex-basis: unset !important;
     flex-grow: unset !important;
+}
+
+.btn-red {
+    background-color: red !important;
+}
+
+.club-btn {
+    animation: club 4s linear infinite;
+}
+
+@keyframes club {
+    0% {
+        transform: translateY(0);
+        box-shadow: 4px 4px 4px rgba(0, 0, 0, 0);
+    }
+
+    50% {
+        transform: translateY(10px);
+        box-shadow: 2px 2px 4px rgb(255, 180, 45);
+    }
+
+    100% {
+        transform: translateY(0);
+        box-shadow: 4px 4px 4px rgba(0, 0, 0, 0);
+    }
 }
 
 @keyframes slideToLeft {
