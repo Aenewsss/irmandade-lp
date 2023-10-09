@@ -5,7 +5,7 @@ import InfiniteName from "./InfiniteName";
 const HomeTop = () => {
     return (
         <section className="home-top pt-5 position-relative">
-            <div className=" pt-5 d-flex flex-column align-items-center h-100 justify-content-center ">
+            <div className=" pt-5 d-flex flex-column align-items-center h-100 justify-content-center pb-5">
                 <h1 className="display-1 text-white fw-bold text-center">
                     FAÇA PARTE DO MAIOR
                     <p className="bg-main mb-0 p-2">CLUBE DE ASSINATURA DE BRASÍLIA</p>
