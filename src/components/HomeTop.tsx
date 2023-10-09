@@ -19,6 +19,8 @@ const HomeTop = () => {
 
                 <ScheduleButton />
 
+                <div className="pt-5 pb-5"></div>
+
                 <Image className="img-top position-absolute z-1" fill src="/favicon.png" alt="Logo Irmandade Fépas"/>
             </div>
             <InfiniteName />
